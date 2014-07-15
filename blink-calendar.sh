@@ -11,5 +11,5 @@ do
 		echo "pattern: none" > /Users/andrew/scripts/blink-calendar.out
 	fi
 
-	sleep 15 
+	sleep 300 
 done
