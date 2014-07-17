@@ -7,9 +7,7 @@ do
 	result=`icalBuddy -iep title -ic Calendar -ea 'eventsNow' | wc -l`
 	if (( result > 0 )) 
 	then
-		echo "pattern: yellow flashes" > /tmp/blink-calendar.out
-	else 
-		echo "pattern: none" > /tmp/blink-calendar.out
+		/usr/local/bin/blink1-tool -m 200 -t 400 --yellow --blink 3
 	fi
 
 	sleep 300 
