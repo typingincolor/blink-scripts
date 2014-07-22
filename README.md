@@ -6,6 +6,8 @@ Some scripts I've written to control my blink(1) [http://thingm.com/products/bli
 
 Checks whether there are any unread messages in your gmail inbox. Username and password are specified in ~/gmail.props
 
+I put this in my crontab file...
+
 The properties are:
 	
 	username
