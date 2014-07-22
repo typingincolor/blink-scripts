@@ -12,5 +12,5 @@ do
 		osascript /blink-scripts/flash.applescript yellow
 	fi
 
-	sleep 5 
+	sleep 300 
 done
