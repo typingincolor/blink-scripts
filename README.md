@@ -2,6 +2,10 @@
 
 Some scripts I've written to control my blink(1) http://thingm.com/products/blink-1/
 
+* blink1control needs to be running for the scripts to work and the API server needs to be turned on.
+* these scripts only work on OSX
+
+
 ## blink-gmail.sh
 
 Checks whether there are any unread messages in your gmail inbox. Username and password are specified in ~/gmail.props
@@ -21,6 +25,10 @@ icalBuddy can be installed using homebrew `brew install ical-buddy`
 
 You have to start it from a terminal window due to calendar's privacy settings.
 I just type `nohup blink-calendar.sh &` and then close the terminal window.
+
+## blink-codeship.sh
+
+Blinks red if my CI build on http://codeship.io is broken, green otherwise...
 
 ## flash.applescript
 
