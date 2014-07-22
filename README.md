@@ -1,5 +1,7 @@
 # blink(1) scripts
 
+Some scripts I've written to control my blink(1) [http://thingm.com/products/blink-1/]
+
 ## blink-gmail.sh
 
 Checks whether there are any unread messages in your gmail inbox. Username and password are specified in ~/gmail.props
