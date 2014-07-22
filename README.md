@@ -1,6 +1,6 @@
 # blink(1) scripts
 
-Some scripts I've written to control my blink(1) [http://thingm.com/products/blink-1/]
+Some scripts I've written to control my blink(1) http://thingm.com/products/blink-1/
 
 ## blink-gmail.sh
 
@@ -15,9 +15,12 @@ The properties are:
 
 ## blink-calendar.sh
 
-Checks your calendar to see whether you should be somewhere. It uses icalBuddy [http://hasseg.org/icalBuddy/icalBuddy/] which can be install using homebrew `brew install ical-buddy` 
+Checks your calendar to see whether you should be somewhere. It uses icalBuddy http://hasseg.orgicalBuddy/icalBuddy/] 
 
-You have to start it from a terminal window due to calendar's privacy settings. I just type `nohup blink-calendar.sh &` and then close the terminal window.
+icalBuddy can be installed using homebrew `brew install ical-buddy` 
+
+You have to start it from a terminal window due to calendar's privacy settings.
+I just type `nohup blink-calendar.sh &` and then close the terminal window.
 
 ## flash.applescript
 
@@ -29,7 +32,7 @@ Flashes the colour specified 3 times. Valid colours are:
 * white
 * purple
 
-basically any colour in blink-control that matches `{colour} flashes`
+so basically any pattern in blink-control that matches `{colour} flashes`
 
 to run it: `osascript flash.applescript {colour}`
 
