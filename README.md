@@ -15,6 +15,8 @@ The properties are:
 
 Checks your calendar to see whether you should be somewhere. It uses icalBuddy [http://hasseg.org/icalBuddy/icalBuddy/] which can be install using homebrew `brew install ical-buddy` 
 
+You have to start it from a terminal window due to calendar's privacy settings. I just type `nohup blink-calendar.sh &` and then close the terminal window.
+
 ## flash.applescript
 
 Flashes the colour specified 3 times. Valid colours are:
