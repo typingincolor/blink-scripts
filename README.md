@@ -19,7 +19,7 @@ The properties are:
 
 ## blink-calendar.sh
 
-Checks your calendar to see whether you should be somewhere. It uses icalBuddy http://hasseg.orgicalBuddy/icalBuddy/] 
+Checks your calendar to see whether you should be somewhere. It uses icalBuddy http://hasseg.orgicalBuddy/icalBuddy/
 
 icalBuddy can be installed using homebrew `brew install ical-buddy` 
 
