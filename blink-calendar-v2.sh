@@ -2,7 +2,6 @@
 
 date=`date`
 result=`/usr/local/bin/icalBuddy -iep title -ic Calendar -ea 'eventsNow' | wc -l`
-
 attempts=1
 if (( result > 0 ))
 then
